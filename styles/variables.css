@@ -1,1 +1,37 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: Inter-Variable;
+  --main-font-size: 18px;
+  --header-font-weight: 700;
+  --text-font-weight: 400;
+  --accent-font: PressStart2P-Regular;
+  --medium-font-size: 14px;
+
+  --main-color: #000;
+  --text-stroke-color: #fff;
+  --background-color: #fff;
+  --button-text-color: #fff;
+
+  --heart-contour-color: #000;
+  --animation-fill-color: red;
+  --heart-main-body-color: #fff;
+  --heart-core-color: #fff;
+
+  --background-gradient: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(#e7e7e7, #1a1a1a);
+  --background-image: url("../images/background.jpg");
+  --border-style: 2px solid var(--main-color);
+}
