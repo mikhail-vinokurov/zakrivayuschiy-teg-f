@@ -42,9 +42,9 @@
   align-items: center;
   background-color: #fff;
   inline-size: clamp(375px, 50vw, 700px);
-  block-size: clamp(327px, 48vh, 368px);
   border: 2px solid var(--main-color);
   margin: 0 auto;
+  padding: 120px 0;
 }
 
 .title {
@@ -124,7 +124,6 @@
   margin-block-end: 26px;
   line-height: 21px;
   font-size: var(--main-font-size);
-  font-variation-settings: var(--text-font-weight);
 }
 
 .reaction-zone {
@@ -271,6 +270,15 @@ dialog::backdrop {
 /* -------------------------------- Media -------------------------------- */
 
 @media (min-width: 1440px) {
+
+  .card__label {
+    right: 25px;
+  }
+
+  .title-container {
+    padding: 128px 0;
+  }
+
   .save-button {
     flex-direction: row;
     justify-content: center;
